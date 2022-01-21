@@ -1,5 +1,5 @@
 {
-  "name": "hexo-generator-json-content",
+  "name": "hexo-generator-json-content-jimmy",
   "version": "4.2.4",
   "description": "Hexo plugin to generate a JSON file with the contents of posts and pages to generic use or consumption, like AJAX site search, Twitter typehead or public content API",
   "scripts": {
@@ -17,7 +17,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/alexbruno/hexo-generator-json-content.git"
+    "url": "https://github.com/jiaming0708/hexo-generator-json-content.git"
   },
   "keywords": [
     "hexo",
@@ -26,12 +26,12 @@
     "generator",
     "content"
   ],
-  "author": "Alex Bruno Cáceres <git.alexbr@outlook.com>",
+  "author": "Jimmy Ho <jiaming0708@gmail.com>",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/alexbruno/hexo-generator-json-content/issues"
+    "url": "https://github.com/jiaming0708/hexo-generator-json-content/issues"
   },
-  "homepage": "https://github.com/alexbruno/hexo-generator-json-content",
+  "homepage": "https://github.com/jiaming0708/hexo-generator-json-content",
   "dependencies": {
     "hexo-util": "latest",
     "keyword-extractor": "latest",
