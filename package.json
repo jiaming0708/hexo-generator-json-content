@@ -38,7 +38,7 @@
     "moment": "latest"
   },
   "devDependencies": {
-    "husky": "^7.0.4",
+    "husky": "^8.0.0",
     "npm-run-all": "^4.1.5",
     "prettier": "^2.0.1",
     "rollup": "^2.1.0",
