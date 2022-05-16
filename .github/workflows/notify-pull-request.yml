@@ -13,9 +13,7 @@ jobs:
       - name: send telegram message
         uses: appleboy/telegram-action@master
         with:
+          debug: true
           to: ${{ secrets.TELEGRAM_CHAT_ID }}
           token: ${{ secrets.TELEGRAM_TOKEN }}
-          message: |
-            Author: ${{ github.event.pull_request.user.login }}
-            Title: ${{ github.event.pull_request.title }}
-            Link: ${{ github.event.pull_request.html_url }}
+          message: ${{ github.event.pull_request.html_url }}
