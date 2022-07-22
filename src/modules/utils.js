@@ -1,6 +1,6 @@
-import moment from 'moment'
 import { extract } from 'keyword-extractor'
 import { stripHTML } from 'hexo-util'
+import dayjs from 'dayjs'
 
 export function has(obj, key) {
   return Object.prototype.hasOwnProperty.call(obj, key)
@@ -60,13 +60,13 @@ export function setContent(obj, item, ref, cfg) {
 
     case 'date':
       obj.date = cfg.dateFormat
-        ? moment(ref.date).format(cfg.dateFormat)
+        ? dayjs(ref.date, cfg.dateFormat)
         : ref.date
       break
 
     case 'updated':
       obj.updated = cfg.dateFormat
-        ? moment(ref.updated).format(cfg.dateFormat)
+        ? dayjs(ref.updated, cfg.dateFormat)
         : ref.updated
       break
 

@@ -33,9 +33,9 @@
   },
   "homepage": "https://github.com/jiaming0708/hexo-generator-json-content",
   "dependencies": {
+    "dayjs": "^1.11.4",
     "hexo-util": "latest",
-    "keyword-extractor": "latest",
-    "moment": "latest"
+    "keyword-extractor": "latest"
   },
   "devDependencies": {
     "husky": "^8.0.1",
