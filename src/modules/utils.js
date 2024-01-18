@@ -59,9 +59,7 @@ export function setContent(obj, item, ref, cfg) {
       break
 
     case 'date':
-      obj.date = cfg.dateFormat
-        ? dayjs(ref.date, cfg.dateFormat)
-        : ref.date
+      obj.date = cfg.dateFormat ? dayjs(ref.date, cfg.dateFormat) : ref.date
       break
 
     case 'updated':
